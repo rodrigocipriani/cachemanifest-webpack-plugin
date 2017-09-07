@@ -1,0 +1,48 @@
+{
+  "name": "cachemanifest-webpack-plugin",
+  "version": "1.0.1",
+  "description": "webpack plugin to generate CACHE MANIFEST",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "make build",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigocipriani/cachemanifest-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "pwa",
+    "manifest",
+    "cache",
+    "manifest",
+    "offline"
+  ],
+  "author": "Rodrigo Cipriani da Rosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigocipriani/cachemanifest-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/rodrigocipriani/cachemanifest-webpack-plugin#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.1",
+    "babel-plugin-espower": "^1.0.0",
+    "babel-runtime": "^5.8.20",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint": "^3.10.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "git-release-notes": "^0.0.2",
+    "mocha": "^2.3.2",
+    "mversion": "^1.10.1",
+    "power-assert": "^1.0.0",
+    "webpack": ">=0.11 <2.0.0 || >=2.1.0-beta.13 <3.0.0 || ^3.2.0"
+  }
+}
