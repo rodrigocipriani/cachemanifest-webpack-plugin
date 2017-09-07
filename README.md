@@ -1,7 +1,7 @@
 # cachemanifest-webpack-plugin 
 Webpack Plugin to generate CACHE MANIFEST 
 
-Script Copied from https://github.com/tomhicks-bsf/appcache-webpack-plugin. 
+Script Copied from https://github.com/sospirited/appcache-webpack-plugin. 
 The change is only this:
 
 Previously it was being generated like this:
