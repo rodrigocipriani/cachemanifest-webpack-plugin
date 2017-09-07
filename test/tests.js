@@ -205,7 +205,7 @@ describe('AppCache', () => {
 
       it('includes NETWORK section items', () => {
         const appCache = new AppCache(null, networkEntries);
-        assert(appCache.getManifestBody() === 'NETWORK:\nnetwork.test\n');
+        assert(appCache.getManifestBody() === '\nNETWORK:\nnetwork.test');
       });
 
       it('excludes empty NETWORK section', () => {
@@ -219,7 +219,7 @@ describe('AppCache', () => {
 
       it('includes FALLBACK section items', () => {
         const appCache = new AppCache(null, null, fallbackEnteries);
-        assert(appCache.getManifestBody() === 'FALLBACK:\nfallback.test\n');
+        assert(appCache.getManifestBody() === '\nFALLBACK:\nfallback.test');
       });
 
       it('excludes empty FALLBACK section', () => {
@@ -233,7 +233,7 @@ describe('AppCache', () => {
 
       it('includes SETTINGS section', () => {
         const appCache = new AppCache(null, null, null, settingsEntries);
-        assert(appCache.getManifestBody() === 'SETTINGS:\nprefer-online\n');
+        assert(appCache.getManifestBody() === '\nSETTINGS:\nprefer-online');
       });
 
       it('excludes empty SETTINGS section', () => {
